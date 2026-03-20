@@ -110,3 +110,25 @@ img {
 }
 
 /* CALL TO ACTION SECTION */
+.action {
+    background-color: #3882f6;
+    margin: 75px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 35px;
+}
+
+#actiontitle , #actiontext {
+    color: white;
+}
+#actiontitle {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#actionbutton {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+}
