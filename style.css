@@ -7,8 +7,7 @@ body {
 }
 header , footer {
     background-color: #1f2937;
-    margin: 0px;
-    padding: 0px;
+    margin-bottom:75px;
 }
 
 .header {
@@ -40,7 +39,7 @@ ul {
 #maintitle {
     font-size: 48px ;
     color: #f9faf8;
-    font-weight: 900px;
+    font-weight: 1200px;
 }
 #subtext {
     font-size: 18px;
@@ -67,4 +66,22 @@ img {
    padding-left: 100px;
    padding-right: 100px;
    padding-bottom: 100px;
+}
+/*CONTENT SECTION BELOW!!!!*/
+.content {
+    text-align: center; 
+    /* i need to text align center this*/
+}
+#contenttitle {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.imagecards {
+    display: flex;
+    justify-content: center;
+    /* legit forgot gap exists, idiot */
 }
