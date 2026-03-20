@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+header , footer {
+    background-color: #1f2937;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+#logo {
+    font: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+/* i just needed to display flex the list, not the container */
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+ a{
+    text-decoration: none;
+    color: #e5e7e5;
+ }
+
+#maintitle {
+    font-size: 48px ;
+    color: #f9faf8;
+    font-weight: 900px;
+}
+#subtext {
+    font-size: 18px;
+    color: #e5e7e5;
+}
+button {
+    background-color: #3882f6;
+    border-radius: 7px;
+}
+
+.container {
+    display: flex;
+}
+
+img {
+    max-width: 200px;
+}
