@@ -7,7 +7,6 @@ body {
 }
 header , footer {
     background-color: #1f2937;
-    margin-bottom:75px;
 }
 
 .header {
@@ -71,6 +70,7 @@ img {
 .content {
     text-align: center; 
     /* i need to text align center this*/
+    margin: 100px;
 }
 #contenttitle {
     font-size: 36px;
@@ -79,9 +79,32 @@ img {
     text-align: center;
     margin-bottom: 40px;
 }
-
 .imagecards {
     display: flex;
     justify-content: center;
     /* legit forgot gap exists, idiot */
+}
+.text {
+    text-align: center;
+}
+
+/* QUOTES SECTION */
+.quotescontainer {
+    background-color: #e5e7eb;
+    padding: 75px;
+    padding-left: 300px;
+    padding-right: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+#quotes {
+    font-size: 36px;
+    color: #1f2937;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#thor {
+    font-weight: bold;
 }
