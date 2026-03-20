@@ -15,7 +15,7 @@ header , footer {
     padding: 0px;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
 }
 
 #logo {
@@ -65,7 +65,7 @@ img {
 #bigcontainer {
    padding-left: 100px;
    padding-right: 100px;
-   padding-bottom: 100px;
+   padding-bottom: 75px;
 }
 /*CONTENT SECTION BELOW!!!!*/
 .content {
@@ -104,6 +104,7 @@ img {
     font-size: 36px;
     color: #1f2937;
     font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
 }
 
 #thor {
