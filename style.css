@@ -43,6 +43,7 @@ ul {
 #subtext {
     font-size: 18px;
     color: #e5e7e5;
+    margin-bottom: 15px;
 }
 button {
     background-color: #3882f6;
@@ -131,4 +132,12 @@ img {
     flex-direction: row;
     justify-content: flex-end;
     align-items: baseline;
+}
+
+/*FOOTER FUCKING FINALLY */
+footer {
+    padding: 30px;
+}
+.text {
+    color: gray;
 }
