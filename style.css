@@ -83,7 +83,7 @@ img {
 .imagecards {
     display: flex;
     justify-content: center;
-    /* legit forgot gap exists, idiot */
+    /* legit forgot gap exists, idiot. but i wont use it now cus it looks pretty good already*/
 }
 .text {
     text-align: center;
